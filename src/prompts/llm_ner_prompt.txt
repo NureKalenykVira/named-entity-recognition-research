@@ -1,0 +1,25 @@
+You are performing Named Entity Recognition for English text.
+
+Your task:
+Extract named entities from the sentence and return ONLY valid JSON.
+Do not add explanations.
+Do not add markdown fences.
+Do not add any text before or after JSON.
+
+Allowed entity labels:
+- PER
+- ORG
+- LOC
+- MISC
+
+Rules:
+1. Return a JSON array.
+2. Each item must have exactly two fields:
+   - "text"
+   - "label"
+3. "text" must be copied exactly from the sentence.
+4. "label" must be one of: PER, ORG, LOC, MISC
+5. If there are no named entities, return an empty JSON array: []
+
+Sentence:
+{sentence}

@@ -1,0 +1,46 @@
+[
+  {
+    "model": "BERT-based NER",
+    "dataset": "CoNLL-2003",
+    "validation_precision": 0.9448160535117057,
+    "validation_recall": 0.9518194070080862,
+    "validation_f1": 0.9483048002685466,
+    "test_precision": 0.9063970716402301,
+    "test_recall": 0.9213323883770376,
+    "test_f1": 0.9138037079342765,
+    "evaluation_subset_size": NaN
+  },
+  {
+    "model": "CRF",
+    "dataset": "CoNLL-2003",
+    "validation_precision": 0.890890015737017,
+    "validation_recall": 0.8574554022214742,
+    "validation_f1": 0.8738530143212417,
+    "test_precision": 0.8131642737273914,
+    "test_recall": 0.7721317280453258,
+    "test_f1": 0.7921169739351559,
+    "evaluation_subset_size": NaN
+  },
+  {
+    "model": "BiLSTM-CRF",
+    "dataset": "CoNLL-2003",
+    "validation_precision": 0.785158891142664,
+    "validation_recall": 0.7817233254796365,
+    "validation_f1": 0.7834373418789004,
+    "test_precision": 0.7052094332981345,
+    "test_recall": 0.7094546742209632,
+    "test_f1": 0.7073256840247131,
+    "evaluation_subset_size": NaN
+  },
+  {
+    "model": "LLM-based NER",
+    "dataset": "CoNLL-2003",
+    "validation_precision": NaN,
+    "validation_recall": NaN,
+    "validation_f1": NaN,
+    "test_precision": 0.7739130434782608,
+    "test_recall": 0.1324404761904762,
+    "test_f1": 0.22617534942820838,
+    "evaluation_subset_size": 300.0
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "model": "BERT-based NER",
+  "dataset": "CoNLL-2003",
+  "validation": {
+    "precision": 0.9448160535117057,
+    "recall": 0.9518194070080862,
+    "f1": 0.9483048002685466,
+    "classification_report": "              precision    recall  f1-score   support\n\n         LOC     0.9705    0.9657    0.9681      1837\n        MISC     0.8776    0.9100    0.8935       922\n         ORG     0.9201    0.9269    0.9235      1341\n         PER     0.9724    0.9771    0.9747      1836\n\n   micro avg     0.9448    0.9518    0.9483      5936\n   macro avg     0.9351    0.9449    0.9399      5936\nweighted avg     0.9452    0.9518    0.9485      5936\n"
+  },
+  "test": {
+    "precision": 0.9063970716402301,
+    "recall": 0.9213323883770376,
+    "f1": 0.9138037079342765,
+    "classification_report": "              precision    recall  f1-score   support\n\n         LOC     0.9356    0.9328    0.9342      1666\n        MISC     0.7726    0.8276    0.7992       702\n         ORG     0.8844    0.9121    0.8980      1661\n         PER     0.9621    0.9598    0.9609      1615\n\n   micro avg     0.9064    0.9213    0.9138      5644\n   macro avg     0.8887    0.9081    0.8981      5644\nweighted avg     0.9079    0.9213    0.9144      5644\n"
+  }
+}

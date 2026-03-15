@@ -1,0 +1,16 @@
+{
+  "model": "CRF",
+  "dataset": "CoNLL-2003",
+  "validation": {
+    "precision": 0.890890015737017,
+    "recall": 0.8574554022214742,
+    "f1": 0.8738530143212417,
+    "classification_report": "              precision    recall  f1-score   support\n\n         LOC     0.9255    0.8857    0.9051      1837\n        MISC     0.8987    0.8275    0.8617       922\n         ORG     0.8341    0.7987    0.8160      1341\n         PER     0.8939    0.8871    0.8905      1842\n\n   micro avg     0.8909    0.8575    0.8739      5942\n   macro avg     0.8880    0.8497    0.8683      5942\nweighted avg     0.8909    0.8575    0.8737      5942\n"
+  },
+  "test": {
+    "precision": 0.8131642737273914,
+    "recall": 0.7721317280453258,
+    "f1": 0.7921169739351559,
+    "classification_report": "              precision    recall  f1-score   support\n\n         LOC     0.8636    0.8159    0.8391      1668\n        MISC     0.7591    0.7407    0.7498       702\n         ORG     0.7638    0.6755    0.7169      1661\n         PER     0.8316    0.8398    0.8357      1617\n\n   micro avg     0.8132    0.7721    0.7921      5648\n   macro avg     0.8045    0.7680    0.7854      5648\nweighted avg     0.8121    0.7721    0.7911      5648\n"
+  }
+}

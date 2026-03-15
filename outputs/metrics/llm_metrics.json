@@ -1,0 +1,11 @@
+{
+  "model": "LLM-based NER",
+  "dataset": "CoNLL-2003",
+  "evaluation_subset_size": 300,
+  "test": {
+    "precision": 0.7739130434782608,
+    "recall": 0.1324404761904762,
+    "f1": 0.22617534942820838,
+    "classification_report": "              precision    recall  f1-score   support\n\n         LOC     0.7917    0.0941    0.1681       202\n        MISC     0.6000    0.1132    0.1905        53\n         ORG     0.3889    0.1077    0.1687        65\n         PER     0.9048    0.1619    0.2747       352\n\n   micro avg     0.7739    0.1324    0.2262       672\n   macro avg     0.6713    0.1192    0.2005       672\nweighted avg     0.7968    0.1324    0.2258       672\n"
+  }
+}

@@ -105,11 +105,3 @@ outputs/models/bert/model.safetensors
 ```
 
 If needed, the model can be re-trained using the provided training scripts.
-
-## Repository link
-
-GitHub repository:
-
-```text
-https://github.com/NureKalenykVira/named-entity-recognition-research
-```
